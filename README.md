@@ -1,26 +1,30 @@
-# Loan Application Form
+# 🚀 Loan Application System
 
-## Features
-- 8-step multi-step form
-- File upload & signature
-- EMI calculation
-- Backend integration (Django REST)
-- Conditional steps
-- Responsive UI
+A full-stack fintech-style loan application platform built using React and Django.
 
-## Tech Stack
-- React + Vite
+## 🔥 Features
+- Multi-step form (8 steps)
+- Conditional logic (Co-applicant step)
+- KYC verification (PAN & Aadhaar)
+- Document upload + E-signature
+- EMI calculation & eligibility check
+- Backend API with Django REST
+- MySQL database integration
+
+## 🛠 Tech Stack
+Frontend:
+- React (Vite)
+- Tailwind / Custom CSS
+
+Backend:
+- Django
 - Django REST Framework
 - MySQL
 
-## How to Run
-
-### Backend
-cd backend
-venv\Scripts\activate
-python manage.py runserver
+## ⚙️ Setup
 
 ### Frontend
+```bash
 cd loan-app
 npm install
 npm run dev
